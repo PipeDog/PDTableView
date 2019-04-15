@@ -22,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (NSInteger)numberOfRowsInTableView:(PDTableView *)tableView;
 
-- (UIView *)tableView:(PDTableView *)tableView viewForRowAtIndex:(NSInteger)index;
+- (__kindof UIView *)tableView:(PDTableView *)tableView viewForRowAtIndex:(NSInteger)index;
 
 @end
 
